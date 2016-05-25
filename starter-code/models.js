@@ -24,7 +24,7 @@ var ingredientSchema = new Schema({
     type: String,
     default: ""
   }
-})
+});
 
 
 var Food = mongoose.model("Food", foodSchema);
@@ -37,6 +37,9 @@ var tweetSchema = new Schema({
     default: ""
   }
 });
+
+////////////////////////////
+
 
 var userSchema = new Schema({
   name: {
